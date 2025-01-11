@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+body{
+    font-family: "Fira Sans", serif;
+    background-color: rgb(237, 233, 233);
+}
+.hero{
+    margin: 20px 160px;
+    font-family: "Fira Sans", serif;
+}
+
+/* All Button */
+
+.all-btn{
+    border-radius: 4px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    padding: 10px 28px;
+    border: none;
+    cursor: pointer;
+    transition: all;
+}
+
+.all-btn:hover{
+    background-color: #00523d;
+}
+.navigations{
+    display: flex;
+    justify-content: space-between;
+}
+.navigations-btn{
+    box-sizing: border-box;
+    width: 90px;
+    padding: 10px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 4px;
+    color: rgb(0, 106, 80);
+    background: none;
+    cursor: pointer;
+}
+.navigations-btn:hover{
+    background-color: #00523d;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 40px 35px;
+    background: rgb(198, 228, 214);
+}
+.head-img{
+    width: 370px;
+    height: auto;
+}
+.caption{
+    color: #0E0E0E80;
+    font-size: 18px;
+    font-weight: 500;
+}
+.title{
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 42px;
+}
+.title-spacing{
+    margin: 10px auto;
+}
+.about{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pillars{
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 29px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.main-content{
+    background-color: white;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 8px;
+}
+.icon-img{
+    width: 40px;
+}
+.main-des{
+    color: #0E0E0EB3;
+    font-size: 13px;
+    line-height: 20px;
+    opacity: 70%;
+}
+.second-btn{
+    padding: 10px;
+    color: white;
+    border: none;
+}
+#btn-1{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    position: absolute;
+}
+#btn-1:hover{
+    background-color: rgb(27, 104, 237);
+
+}
+#btn-2{
+    border-radius: 8px;
+    background-color: rgb(9, 161, 92);
+}
+#btn-2:hover{
+    background-color: rgb(6, 118, 67);
+}
+#btn-3{
+    border-radius: 8px;
+    background-color: rgb(255, 194, 57);
+}
+#btn-3:hover{
+    background-color: rgb(213, 163, 46);
+}
+.btn-positon{
+    float: right;
+}
+.about-dr-younus{
+    padding: 20px 12px;
+    background-image: url(../assets/quote-bg.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: unset;
+    border: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.yoyo{
+    color: #0E0E0E99;
+    font-size: 12px;
+    font-weight: 300;
+}
+.sub-main{
+    padding: 10px;
+    display: table;
+    background-color: white;
+    border-radius: 8px;
+    border-collapse: collapse;
+}
+.sub-main-p{
+    display: table-row;
+    background-color: white;
+
+}
+.sub-main-c{
+    padding: 10px;
+    border: 1px #C6E4D6 solid;
+    display: table-cell;
+    font-size: 12px;
+    font-weight: 700;
+}
+#sub-main-p-c{
+    background-color: #C6E4D6;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 17px;
+}
+.sub-main-btn{
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #C6E4D6;
+    border: none;
+    margin: 1px;
+    padding: 10px;
+    width: 150px;
+    border: 1px black solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sub-main-btn:hover{
+    background-color: #abcabc;
+}
+#sub-main-p-c-w{
+    width: 780px;
+}
+.satelites{
+    display: flex;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    gap: 20px;
+    border-radius: 8px;
+}
+.satelite{
+    width: 300px;
+    border-radius: 13px;
+}
+.satelites-h{
+    font-size: 25px;
+    font-weight: 600;
+}
+.al-jazeera{
+    width: 100px;
+}
+.satelites-c{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.satelite-des{
+    font-size: 13px;
+    color: #0E0E0EB3;
+    opacity: 70%;
+}
+.btn-margin{
+    margin-top: 28px;
+}
+.second-last{
+    margin: auto 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.second-last-btn{
+    display: flex;
+    gap: 15px;
+}
+.second-last-btn-c{
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    font-size: 25px;
+    font-weight: 800;
+    height: 50px 50px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.second-last-btn-c:hover{
+    background-color: #C6E4D6;
+}
+.div-between-input-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+::placeholder{
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+    opacity: 70%;
+}
+#placeholder-align{
+    width: 750px;
+    padding: 8px;
+}
+.last-section{
+    border-radius: 24px 24px 0px 0px;
+    background: rgb(198, 228, 214);
+    padding: 50px 60px 0px 60px;
+    margin-top: 45px;
+}
+.last-section-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: none;
+}
+.last-section-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    background-color: #C6E4D6;
+    border-radius: 8px;
+}
+.search-bar-bg{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px;
+    align-items: center;
+}
+.search-bar-f{
+    border: none;
+    text-align: start;
+    padding: 10px;
+    width: 500px;
+}
+.search-bar-g{
+    border: none;
+    padding: 10px;
+    background-color: #006A50;
+    color: white;
+}
+.bottom-section{
+    background-color: #C6E4D6;
+    border-radius: 0px 0px 18px 18px;
+}
+.bottom-section-txt{
+    font-size: small;
+    text-align: center;
+    padding: 15px 0px 50px;
+    color: #0E0E0EB3;
+    opacity: 70%;
+}
+.finally{
+    margin-top: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.finally-p{
+    font-size: larger;
+    padding: 25px;
+    font-weight: 800;
+}
+.final-img{
+    width: 15px;
+    gap: 20px;
+}
+.img-final{
+    display: flex;
+    gap: 15px;
+}
